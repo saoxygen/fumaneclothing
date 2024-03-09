@@ -378,7 +378,8 @@ a:active {
   }
   #home {
     background-size: 160vw;
-    height: 60vh;
+    height: 70vh;
+    background-position-y: 120px;
   }
   #shop {
     background-color: white;
@@ -441,6 +442,11 @@ a:active {
 
   a:hover {
     color: white;
+  }
+
+  .blur {
+    /* filter: blur(8px); */
+    backdrop-filter: blur(10px);
   }
 
   #menu2 {
