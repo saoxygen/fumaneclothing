@@ -7,6 +7,7 @@ bars.addEventListener("click", function () {
         menu.classList.remove("motion")
         menu2_ul.classList.add("blur");
     } else {
+        //comments
         menu.classList.add("motion")
         menu2_ul.classList.remove("blur");
     }
