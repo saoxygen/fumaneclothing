@@ -203,8 +203,14 @@ a:active {
 }
 
 .slide-track {
-  animation: scroll 42s linear infinite;
-  display: flex;
+  /* animation: scroll 42s linear infinite;
+  display: flex; */
+}
+
+.slide-track div {
+  animation-name: scroll;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
 }
 
 #deliver div ul span {
