@@ -202,11 +202,6 @@ a:active {
   }
 }
 
-.slide-track {
-  /* animation: scroll 42s linear infinite;
-  display: flex; */
-}
-
 .slide-track div {
   animation-name: scroll;
   animation-duration: 42s;
@@ -445,7 +440,6 @@ a:active {
   }
 
   .blur {
-    /* filter: blur(8px); */
     backdrop-filter: blur(10px);
   }
 
