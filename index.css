@@ -198,7 +198,7 @@ a:active {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-359px * 15));
+    transform: translateX(calc(-359px * 5));
   }
 }
 
@@ -209,7 +209,8 @@ a:active {
 
 .slide-track div {
   animation-name: scroll;
-  animation-duration: 35s;
+  animation-duration: 42s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
